@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  background: #0062be;
+  font-family: 'Acme', sans-serif;
+  color: white;
+  -webkit-transition: 1s ease-in;
+  transition: 1s ease-in;
+}
+
+header {
+  padding: 1em 5em 1em 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo img {
+  max-width: 80px;
+}
+
+header .nav {
+  width: 60vw;
+}
+
+header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+header .nav ul li {
+  cursor: pointer;
+}
+
+.body {
+  padding: 0 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body .text-container {
+  width: 50vw;
+}
+
+.body .text-container h1 {
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.body .text-container h1 span {
+  font-size: 2em;
+}
+
+.body .text-container p {
+  margin-top: 0;
+  margin-bottom: 2  em;
+}
+
+.body .text-container a {
+  background-color: #fff;
+  padding: .5em 1em;
+  color: black;
+  text-decoration: none;
+  border-radius: 1em;
+}
+
+.body .thumb {
+  list-style: none;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body .thumb li {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.body .thumb li:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+.body .thumb img {
+  width: 30px;
+  margin-right: 1em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
